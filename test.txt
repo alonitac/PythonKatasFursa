@@ -1,0 +1,1 @@
+python3 -m unittest katas/test/test_hello_world.py

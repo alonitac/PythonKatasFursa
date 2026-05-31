@@ -19,7 +19,7 @@ jobs:
         working-directory: katas
         run: |
           pip install pylint
-          pylint *.py
+          pylint --rcfile=../.pylintrc --fail-under=9.5 *.py
 
   PreTestListKatas:
     runs-on: ubuntu-latest
